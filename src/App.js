@@ -7,8 +7,8 @@ function App() {
   const [filter, setFilter] = useState('');
 
   useEffect(() => {
-    //fetch('https://customers-apis.herokuapp.com/customers/', {
-    fetch('http://localhost:4000/customers', {
+    fetch('https://customers-apis.herokuapp.com/customers/', {
+    //fetch('http://localhost:4000/customers', {
       method: 'GET',
       headers: {
         'Appcept': 'application/json',
